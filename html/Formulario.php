@@ -10,7 +10,7 @@
         </div>
         <?php session_unset(); }?>
         <div class="card card-body">
-            <form action="../src/registrar.php" method="post">
+            <form action="../src/registrar.php" method="POST">
                 <h3 class="align-items-center">
                     ENCUESTA SOBRE QUE TANTO LE AGRADA PHP
                     </h1>
@@ -153,7 +153,7 @@
                             </div>
                         </div>
                         <div class="d-grid gap-2">
-                            <input class="btn btn-outline-success" type="button" value="ENVIAR">
+                            <input class="btn btn-outline-success" type="button" value="enviar">
                         </div>
             </form>
         </div>
