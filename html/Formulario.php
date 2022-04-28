@@ -34,7 +34,7 @@
                                     <div class="form-check">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             <input class="form-check-input" type="checkbox" name="profesion"
-                                                value="estudaintes">
+                                                value="Estudaintes">
                                             Estudiante
                                         </label>
                                     </div>
@@ -42,7 +42,7 @@
                                     <div class="form-check">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             <input class="form-check-input" type="checkbox" name="profesion"
-                                                value="profesional">
+                                                value="Profesional">
                                             Profesional
                                         </label>
                                     </div>
@@ -50,7 +50,7 @@
                                     <div class="form-check">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             <input class="form-check-input" type="checkbox" name="profesion"
-                                                value="freelance">
+                                                value="Freelance">
                                             Freelance
                                         </label>
                                     </div>
@@ -66,14 +66,14 @@
                                     <div class="form-check">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             <input class="form-check-input" type="checkbox" name="rol"
-                                                value="diseñador">
+                                                value="Diseñador UX/UI">
                                             Diseñador UX/IU
                                         </label>
                                     </div>
                                     <div class="form-check">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             <input class="form-check-input" type="checkbox" name="rol"
-                                                value="programador fronted">
+                                                value="Programador fronted">
                                             Frontend Developer
                                         </label>
                                     </div>
@@ -81,14 +81,14 @@
                                     <div class="form-check">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             <input class="form-check-input" type="checkbox" name="rol"
-                                                value="programador back end">
+                                                value="Programador back end">
                                             Programador Back end
                                         </label>
                                     </div>
 
                                     <div class="form-check">
                                         <label class="form-check-label" for="flexRadioDefault1">
-                                            <input class="form-check-input" type="checkbox" name="rol" value="database">
+                                            <input class="form-check-input" type="checkbox" name="rol" value="DBA(Database Administrator)">
                                             DBA(Database Administrator)
                                         </label>
                                     </div>
@@ -105,7 +105,7 @@
 
                                     <div class="form-check">
                                         <label class="form-check-label" for="flexRadioDefault1">
-                                            <input class="form-check-input" type="checkbox" name="conocePHP" value="si">
+                                            <input class="form-check-input" type="checkbox" name="conocePHP" value="SI">
                                             SI
                                         </label>
                                     </div>
@@ -127,15 +127,14 @@
                                     <div class="form-check">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             <input class="form-check-input" type="checkbox" name="phpConocimiento"
-                                                value="bajo">
+                                                value="Bajo">
                                             Bajo
                                         </label>
                                     </div>
 
                                     <div class="form-check">
                                         <label class="form-check-label" for="flexRadioDefault1">
-                                            <input class="form-check-input" type="checkbox" name="phpConocimiento"
-                                                value="medio">
+                                            <input class="form-check-input" type="checkbox" name="phpConocimiento" value="Medio">
                                             Medio
                                         </label>
                                     </div>
@@ -143,7 +142,7 @@
                                     <div class="form-check">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             <input class="form-check-input" type="checkbox" name="phpConocimiento"
-                                                value="alto">
+                                                value="Alto">
                                             Alto
                                         </label>
                                     </div>
@@ -153,7 +152,12 @@
                             </div>
                         </div>
                         <div class="d-grid gap-2">
-                            <input class="btn btn-outline-success" type="button" value="enviar">
+                        <input 
+                            type="submit" 
+                            value="guardar 1" 
+                            class="btn btn-success btn-block form-control" 
+                            name="enviar"
+                        >
                         </div>
             </form>
         </div>

@@ -2,6 +2,7 @@
 
 include("./conn.php");
 
+
 if(isset($_POST['enviar'])){
 
     if(isset($_POST['profesion'])){
@@ -22,9 +23,11 @@ if(isset($_POST['enviar'])){
 
     $query = "INSERT INTO registro(profesion,rol,conocePHP,phpConocimiento)
                 values('$profesion','$rol','$conocePHP','$phpConocimiento')";
+    
 
+    #echo "$rol -----","$profesion  ---------", "$conocePHP ---------";
 
-    echo "$rol","$profesion", "$conocePHP","$phpConocimineto";
+    #echo "----  $phpConocimiento  ---";
 
     $result=mysqli_query($conn,$query);
 
@@ -34,6 +37,8 @@ if(isset($_POST['enviar'])){
 
     $_SESSION['mensaje'] = "Se guarda exitosamente a la DB";
     $_SESSION['mensaje_tipo'] = "success";
+
+    header("Location: ../index.php");
 }
 
 

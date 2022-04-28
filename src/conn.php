@@ -8,4 +8,5 @@ $conn = mysqli_connect(
     '0108',
     'encuesta'
 ) or die(mysqli_erro($mysqli));
+
 ?>
