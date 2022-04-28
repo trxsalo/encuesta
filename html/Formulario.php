@@ -127,6 +127,14 @@
                                     <div class="form-check">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             <input class="form-check-input" type="checkbox" name="phpConocimiento"
+                                                value="Ninguno">
+                                            Ninguno
+                                        </label>
+                                    </div>
+
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            <input class="form-check-input" type="checkbox" name="phpConocimiento"
                                                 value="Bajo">
                                             Bajo
                                         </label>
@@ -154,7 +162,7 @@
                         <div class="d-grid gap-2">
                         <input 
                             type="submit" 
-                            value="guardar 1" 
+                            value="ENVIAR" 
                             class="btn btn btn-outline-success btn-block form-control" 
                             name="enviar"
                         >
