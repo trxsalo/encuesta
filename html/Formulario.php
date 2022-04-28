@@ -18,7 +18,7 @@
                         ENCUESTA SOBRE QUE TANTO LE AGRADA PHP
                         </h1>
                         <p>
-                            Por favor complete la encuesta con cinceridad.
+                            Por favor complete la encuesta con sinceridad.
                         </p>
                         <p>
                             Solo marca uno por pregunta.
