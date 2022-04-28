@@ -155,7 +155,7 @@
                         <input 
                             type="submit" 
                             value="guardar 1" 
-                            class="btn btn-success btn-block form-control" 
+                            class="btn btn btn-outline-success btn-block form-control" 
                             name="enviar"
                         >
                         </div>
